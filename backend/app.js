@@ -25,7 +25,7 @@ app.use("/users", userroutes);
 const io=connectToSocket(server);
 const start=async ()=>{
     console.log("starting server");
-    const connectiondb=await mongoose.connect('mongodb+srv://anandgoyal5656:998100@cluster0.cdcdw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+    const connectiondb=await mongoose.connect('mongodb+srv://anandgoyal5656:GFjAJSAyZQQ8CJxr@cluster0.cdcdw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
     console.log("connection established");
     server.listen(app.get("port"),(req,res)=>{
         console.log(`app is listening on the port ,${connectiondb.connection.host}`);
