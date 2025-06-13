@@ -1,0 +1,64 @@
+.landingPageContainer{
+  height:100vh;
+  width:100vw;
+  /*background:url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30473.jpg?t=st=1741983965~exp=1741987565~hmac=82edbcf09548b19747443a77d0aaf70ffdddca9359f2cc9f10fdfae3b96cdfbb&w=826);*/
+  background-repeat:no-repeat;
+  opacity:70%;
+  background-size:cover;
+}
+.landingPageContainer nav{
+  padding-inline:1.2rem;
+  padding-block:1.6rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.landingPageContainer nav .navHeader{
+  cursor:pointer;
+
+}
+.landingPageContainer nav .navlist{
+  display:flex;
+  gap:1.6rem;
+  cursor:pointer;
+
+}
+.landingMainContainer {
+
+  display:flex;
+  justify-content:space-between;
+  padding-inline:3rem;
+  padding-top:2vh;
+  height:80vh;
+  align-items:center;
+  width:auto ;
+ 
+
+
+
+}
+.landingMainContainer h1{
+  font-size:4.2rem;
+}
+.landingMainContainer p{
+  font-size:1.2rem;
+}
+#img1{
+  height:70vh;
+  width:60vh;
+}
+#sbtn{
+  padding:1rem 2rem;
+  border:none;
+  background-color:#D97500;
+  width:fit-content;
+  content: '\f132';
+  border-radius:20px;
+}
+a{
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+
